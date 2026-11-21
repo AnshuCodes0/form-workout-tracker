@@ -1,6 +1,12 @@
 # FORM — Workout Tracker
 
+> **[Open the live FORM website](https://form-workout-tracker-anshu-codes.vercel.app)**
+
 A responsive, browser-based movement tracker built with HTML, CSS and vanilla JavaScript.
+
+## Live Demo
+
+Visit **[FORM — Workout Tracker](https://form-workout-tracker-anshu-codes.vercel.app)** to use the website.
 
 ## Features
 
@@ -17,8 +23,10 @@ Open `index.html` in a modern browser.
 
 ## Deploy
 
-This repository includes a GitHub Actions workflow that publishes the site to GitHub Pages on pushes to `main`.
+A GitHub Actions workflow is included for GitHub Pages deployment. GitHub Pages must be enabled for the repository with **Settings → Pages → Build and deployment → Source → GitHub Actions**. The live demo above is currently hosted on Vercel.
 
-Progress is stored in the browser's local storage. It is not synced between browsers or devices.
+## Progress storage
+
+Progress is stored in your browser's local storage. It is not synced between browsers or devices.
 
 FORM is a personal movement tracker, not a medical assessment. Choose comfortable movement, take breaks and stop if you feel unwell.
